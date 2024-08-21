@@ -1,7 +1,7 @@
 const { defineConfig } = require('@vue/cli-service')
 
 module.exports = defineConfig({
-  publicPath: `/home/`,
+  publicPath: `/Cyberpank/`,
   transpileDependencies: true,
   css: {
     loaderOptions: {
