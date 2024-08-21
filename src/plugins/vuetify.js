@@ -1,15 +1,8 @@
-import { createVuetify } from 'vuetify';
+import { createVuetify } from 'vuetify'
+import * as components from 'vuetify/components'
+import * as directives from 'vuetify/directives'
 
-const vuetify = createVuetify({
-  theme: {
-    dark: false
-  },
-  options: {
-    customProperties: true
-  },
-  icons: {
-    iconfont: "mdi"
-  }
-});
-
-export default vuetify;
+export default createVuetify({
+  components,
+  directives,
+})

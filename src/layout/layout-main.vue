@@ -1,6 +1,6 @@
 <template>
     <v-app>
-      <div class="layout-main">
+      <div class="layout-main position-relative">
         <the-header />
         <main>
           <router-view v-slot="{ Component }">

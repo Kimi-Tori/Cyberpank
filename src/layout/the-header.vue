@@ -1,12 +1,22 @@
 <template>
-    <header class="the-header">
-      <img :src="require('@/assets/header/logo.png')" alt="logo" class="the-header__logo">
-      <icon-template name="facebook" />
+    <header class="the-header position-absolute w-100">
+      <v-container class="d-flex flex-column align-center flex-md-row">
+        <img :src="require('@/assets/header/logo.png')" alt="logo" class="the-header__logo">
+        <div class="the-header__socials d-flex justify-center justify-md-end w-100 mt-3">
+          <a href="https://www.youtube.com/" target="_blank" class="mx-3"><icon-template name="youtube" class="the-header__socials-icon" /></a>
+          <a href="https://vk.com/" target="_blank" class="mx-3"><icon-template name="vk" class="the-header__socials-icon" /></a>
+          <a href="https://facebook.com/" class="mx-3"><icon-template name="facebook" class="the-header__socials-icon" /></a>
+          <a href="https://twiter.com/" class="mx-3"><icon-template name="twiter" class="the-header__socials-icon" /></a>
+          <a href="https://twitch.com/" class="mx-3"><icon-template name="twitch" class="the-header__socials-icon" /></a>
+          <a href="https://instagram.com/" class="mx-3"><icon-template name="inst" class="the-header__socials-icon" /></a>
+        </div>
+      </v-container>
+      
     </header>
   </template>
   
   <script>
-  import IconTemplate from '@/views/icon-template.vue';
+  import IconTemplate from '@/components/elements/icon-template.vue';
 
   export default {
     name: "the-header",
@@ -18,5 +28,24 @@
   
   <style scoped lang="scss">
   .the-header {
+    z-index: $z-index-top;
+
+    &__logo {
+      max-width: 200px;
+    }
+
+    &__socials {
+
+      &-icon {
+        max-width: 25px;
+        max-height: 25px;
+        fill: $black;
+        transition: 0.2s;
+
+        &:hover {
+          fill: $yellow !important;
+        }
+      }
+    }
   }
   </style>

@@ -1,0 +1,35 @@
+.Archangelsk-30-400-adaptive-62 {
+    font-family: 'Archangelsk', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+
+    @include up($md) {
+        font-size: 62px;
+    }
+}
+
+.Roboto-20-700-adaptive-24 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+
+    @include up($md) {
+        font-size: 24px;
+    }
+}
+
+.Roboto-16-400-adaptive-18 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+
+    @include up($md) {
+        font-size: 18px;
+    }
+}
+
+.Roboto-12-400 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
