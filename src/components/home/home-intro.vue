@@ -42,6 +42,10 @@ export default {
                     delay: 3000,  // Задержка между слайдами (в миллисекундах)
                     disableOnInteraction: false,  // Оставить автопрокрутку активной при взаимодействии пользователя
                 },
+                simulateTouch: false,   // Отключить имитацию сенсорных жестов
+                touchEventsTarget: 'container',
+                touchRatio: 0,
+                allowTouchMove: false,  // Отключить перемещение слайдов при касании
             }
         }
     }
