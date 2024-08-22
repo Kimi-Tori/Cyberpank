@@ -8,7 +8,8 @@ export default {
 }
 </script>
 
-<style lang="scss">
-.pattern-template {
+<style lang="scss" scoped>
+.pattern {
+
 }
 </style>

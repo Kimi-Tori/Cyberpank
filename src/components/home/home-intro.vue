@@ -1,5 +1,5 @@
 <template>
-    <div class="home-intro position-relative">
+    <section class="home-intro position-relative">
         <div class="position-relative">
             <swiper :navigation="false" :pagination="{clickable: false}" :modules="modules" v-bind="swiperOptions">
                 <swiper-slide v-for='item in slide' :key='item' class="d-flex justify-center align-center h-100 w-100 overflow-hidden">
@@ -11,7 +11,7 @@
             <div class="Archangelsk-30-400-adaptive-62 text-center text-md-left">Доступно на всех платформах</div>
             <v-btn class="home-intro__container-btn Roboto-20-700-adaptive-24 text-capitalize color-yellow py-3 px-7 mt-6 py-md-5 px-md-10">Узнать больше</v-btn>
         </div>
-    </div>
+    </section>
 </template>
 
 <script>

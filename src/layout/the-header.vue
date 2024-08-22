@@ -1,7 +1,7 @@
 <template>
     <header class="the-header position-absolute w-100">
       <v-container class="d-flex flex-column align-center flex-md-row">
-        <img :src="require('@/assets/header/logo.png')" alt="logo" class="the-header__logo">
+        <router-link :to="{ name: 'home' }"><img :src="require('@/assets/header/logo.png')" alt="logo" class="the-header__logo"></router-link>
         <div class="the-header__socials d-flex justify-center justify-md-end w-100 mt-3">
           <a href="https://www.youtube.com/" target="_blank" class="mx-3"><icon-template name="youtube" class="the-header__socials-icon" /></a>
           <a href="https://vk.com/" target="_blank" class="mx-3"><icon-template name="vk" class="the-header__socials-icon" /></a>

@@ -1,19 +1,25 @@
 <template>
-    <section class="home position-relative">
+    <div class="home position-relative">
         <home-intro />
         <home-info class="home__info" />
-    </section>
+        <home-set />
+        <home-buy />
+    </div>
 </template>
 
 <script>
 import HomeIntro from '@/components/home/home-intro.vue'
 import HomeInfo from '@/components/home/home-info.vue'
+import HomeSet from '@/components/home/home-set.vue'
+import HomeBuy from '@/components/home/home-buy.vue'
 
 export default {
     name: 'home-template',
     components: {
         HomeIntro,
-        HomeInfo
+        HomeInfo,
+        HomeSet,
+        HomeBuy
     }
 }
 </script>

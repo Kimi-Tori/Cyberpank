@@ -5,7 +5,7 @@ export default [
         children: [
             {
                 name: 'home',
-                path: '/Cyberpank/',
+                path: '/',
                 component: () => import('@/views/home-template.vue')
             },
             {

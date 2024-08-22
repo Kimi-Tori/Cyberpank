@@ -1,21 +1,23 @@
 <template>
-    <v-container class="home-info">
-        <h1 class="Archangelsk-30-400-adaptive-62">Найт-Сити изменит тебя навсегда!</h1>
-        <p class="Roboto-16-400-adaptive-18 mt-6"><span class="color-blue">Cyberpunk 2077</span> — приключенческая ролевая игра, действие которой происходит в мегаполисе Найт-Сити, где власть, роскошь и модификации тела ценятся выше всего. Ты играешь за V, наёмника в поисках устройства, позволяющего обрести бессмертие. Ты сможешь менять киберимпланты, навыки и стиль игры своего персонажа, исследуя открытый мир, где твои поступки влияют на ход сюжета и всё, что тебя окружает.</p>
-        <div class="d-lg-flex mt-16">
-            <div class="d-sm-flex flex-lg-column justify-center mr-lg-8">
-                <div class="home-info__container d-flex align-center justify-center w-100 overflow-hidden">
-                    <img :src="require('@/assets/info/home-info-1.jpg')" class="w-100 mr-sm-4 mr-lg-0">
+    <section class="home-info">
+        <v-container class="home-info">
+            <h1 class="Archangelsk-30-400-adaptive-62">Найт-Сити изменит тебя навсегда!</h1>
+            <p class="Roboto-16-400-adaptive-18 mt-6"><span class="color-blue">Cyberpunk 2077</span> — приключенческая ролевая игра, действие которой происходит в мегаполисе Найт-Сити, где власть, роскошь и модификации тела ценятся выше всего. Ты играешь за V, наёмника в поисках устройства, позволяющего обрести бессмертие. Ты сможешь менять киберимпланты, навыки и стиль игры своего персонажа, исследуя открытый мир, где твои поступки влияют на ход сюжета и всё, что тебя окружает.</p>
+            <div class="d-lg-flex mt-16">
+                <div class="d-sm-flex flex-lg-column justify-center mr-lg-8">
+                    <div class="home-info__container d-flex align-center justify-center w-100 overflow-hidden">
+                        <img :src="require('@/assets/info/home-info-1.jpg')" class="w-100 mr-sm-4 mr-lg-0">
+                    </div>
+                    <div class="home-info__container d-flex align-center justify-center w-100 overflow-hidden mt-8 mt-sm-0 ml-sm-4 ml-lg-0 mt-lg-8">
+                        <img :src="require('@/assets/info/home-info-2.jpg')" class="w-100">
+                    </div>
                 </div>
-                <div class="home-info__container d-flex align-center justify-center w-100 overflow-hidden mt-8 mt-sm-0 ml-sm-4 ml-lg-0 mt-lg-8">
-                    <img :src="require('@/assets/info/home-info-2.jpg')" class="w-100">
+                <div class="home-info__container-big d-flex align-center justify-center w-100 w-lg-100 overflow-hidden mt-8 mt-lg-0">
+                    <img :src="require('@/assets/info/home-info-3.jpg')" class="h-100 w-sm-100">
                 </div>
             </div>
-            <div class="home-info__container-big d-flex align-center justify-center w-100 w-lg-100 overflow-hidden mt-8 mt-lg-0">
-                <img :src="require('@/assets/info/home-info-3.jpg')" class="h-100 w-sm-100">
-            </div>
-        </div>
-    </v-container>
+        </v-container>
+    </section>
 </template>
 
 <script>
