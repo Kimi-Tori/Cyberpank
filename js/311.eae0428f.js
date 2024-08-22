@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunktest"]=self["webpackChunktest"]||[]).push([[311],{8311:function(t,e,n){n.r(e),n.d(e,{default:function(){return f}});var a=n(6768);const r={class:"pattern"};function s(t,e,n,s,c,u){return(0,a.uX)(),(0,a.CE)("section",r)}var c={name:"pattern-template"},u=n(1241);const d=(0,u.A)(c,[["render",s],["__scopeId","data-v-feed0d10"]]);var f=d}}]);
+//# sourceMappingURL=311.eae0428f.js.map

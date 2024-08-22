@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunktest"]=self["webpackChunktest"]||[]).push([[595],{3595:function(t,e,n){n.r(e),n.d(e,{default:function(){return o}});var r=n(6768);const s={class:"pattern"};function a(t,e,n,a,u,c){return(0,r.uX)(),(0,r.CE)("section",s)}var u={name:"pattern-template"},c=n(1241);const f=(0,c.A)(u,[["render",a]]);var o=f}}]);
-//# sourceMappingURL=595.dd2a545d.js.map
