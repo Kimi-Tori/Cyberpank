@@ -1,6 +1,6 @@
 <template>
     <v-app>
-      <div class="layout-main position-relative">
+      <div class="layout-main position-relative d-flex flex-column justify-space-between">
         <the-header />
         <main>
           <router-view v-slot="{ Component }">
@@ -26,5 +26,6 @@
   
   <style lang="scss">
   .layout-main {
+    min-height: 100vh;
   }
   </style>

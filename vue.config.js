@@ -17,10 +17,6 @@ module.exports = defineConfig({
     });
   },
   devServer: {
-    historyApiFallback: {
-      rewrites: [
-        { from: /^\/Cyberpank/, to: '/' }
-      ]
-    }
+    historyApiFallback: true,
   }
 })

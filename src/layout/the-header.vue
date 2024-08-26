@@ -1,5 +1,5 @@
 <template>
-    <header class="the-header position-absolute w-100">
+    <header :class="headerClass">
       <v-container class="d-flex flex-column align-center flex-md-row">
         <router-link :to="{ name: 'home' }"><img :src="require('@/assets/header/logo.png')" alt="logo" class="the-header__logo"></router-link>
         <div class="the-header__socials d-flex justify-center justify-md-end w-100 mt-3">
@@ -22,7 +22,12 @@
     name: "the-header",
     components: {
       IconTemplate
+    },
+    computed: {
+    headerClass() {
+      return this.$route.name === 'home' ? 'the-header position-absolute w-100' : 'the-header w-100';
     }
+  }
   };
   </script>
   
