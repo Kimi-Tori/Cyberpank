@@ -12,20 +12,20 @@
         <the-footer />
       </div>
     </v-app>
-  </template>
+</template>
   
-  <script>
-  import TheHeader from "@/layout/the-header.vue";
-  import TheFooter from "@/layout/the-footer.vue";
-  
-  export default {
+<script>
+import TheHeader from "@/layout/the-header.vue";
+import TheFooter from "@/layout/the-footer.vue";
+
+export default {
     name: "layout-main",
     components: { TheFooter, TheHeader },
-  };
-  </script>
-  
-  <style lang="scss">
-  .layout-main {
+};
+</script>
+
+<style lang="scss">
+.layout-main {
     min-height: 100vh;
-  }
-  </style>
+}
+</style>

@@ -4,18 +4,13 @@ export default [
         component: () => import('@/layout/layout-main.vue'),
         children: [
             {
-                name: '404',
-                path: '/:catchAll(.*)',
-                component: () => import('@/views/error-template.vue')
-            },
-            {
                 name: 'home',
-                path: '/Cyberpank/',
+                path: '', // Путь относительно базового пути
                 component: () => import('@/views/home-template.vue')
             },
             {
                 name: 'pattern',
-                path: '/pattern/',
+                path: 'pattern', // Путь относительно базового пути
                 component: () => import('@/views/pattern-template.vue')
             },
         ],

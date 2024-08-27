@@ -1,29 +1,31 @@
 {
-  "name": "test",
-  "version": "0.1.0",
+  "name": "cyberpank",
   "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "dev": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "dev": "vite",
+    "build": "vite build",
     "predeploy": "npm run build",
     "deploy": "vue-cli-service build && gh-pages -d dist",
-    "lint": "vue-cli-service lint"
+    "preview": "vite preview"
   },
   "dependencies": {
+    "vue": "^3.4.37",
+    "vue-router": "^4.3.3",
+    "vuetify": "^3.7.0",
+    "vuex": "^4.0.2",
     "@jamescoyle/vue-icon": "^0.1.2",
     "@mdi/js": "^7.4.47",
     "core-js": "^3.8.3",
-    "swiper": "^11.1.10",
-    "vue": "^3.2.13",
-    "vue-router": "^4.3.3",
-    "vuetify": "^3.7.0",
-    "vuex": "^4.0.2"
+    "swiper": "^11.1.10"
   },
   "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.2",
+    "vite": "^5.4.2",
     "@babel/core": "^7.12.16",
     "@babel/eslint-parser": "^7.12.16",
     "@mdi/font": "^7.4.47",
-    "@vitejs/plugin-vue": "^5.0.5",
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
@@ -32,7 +34,6 @@
     "gh-pages": "^6.1.1",
     "sass": "^1.77.5",
     "sass-loader": "^14.2.1",
-    "vite": "^5.2.13",
     "vue-cli-plugin-vuetify": "~2.5.8"
   },
   "eslintConfig": {

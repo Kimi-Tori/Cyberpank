@@ -1,7 +1,7 @@
 <template>
     <section class="home-buy overflow-hidden d-md-flex">
         <div class="home-buy__img overflow-hidden h-100 d-flex align-center justify-center justify-md-start w-100 w-md-25 w-lg-50">
-            <img :src="require('@/assets/buy/home-buy-img.jpg')" class="w-100 w-md-auto">
+            <img src="@/assets/buy/home-buy-img.jpg" class="w-100 w-md-auto">
         </div>
         <v-container class="ml-md-8">
             <h1 class="Archangelsk-30-400-adaptive-62 color-white mt-10">Купить игру Cyberpunk 2077</h1>

@@ -1,13 +1,13 @@
 <template>
     <section class="home-set overflow-hidden">
-        <img :src="require('@/assets/set/set-img.jpg')" class="home-set__img">
+        <img src="@/assets/set/set-img.jpg" class="home-set__img">
         <v-container class="my-16 d-md-flex">
             <div>
-                <img :src="require('@/assets/set/set-img-2.png')" class="home-set__desctop w-100">
+                <img src="@/assets/set/set-img-2.png" class="home-set__desctop w-100">
                 <div class="d-flex align-center justify-center mt-6 flex-md-column flex-lg-row">
-                    <img :src="require('@/assets/set/set-img-hp.png')" class="home-set__product h-100">
-                    <img :src="require('@/assets/set/set-img-x.png')" class="home-set__product-mini h-100 mx-3 mx-md-0 my-md-6 my-lg-0 mx-lg-6">
-                    <img :src="require('@/assets/set/set-img-logo.png')" class="home-set__product h-100">
+                    <img src="@/assets/set/set-img-hp.png" class="home-set__product h-100">
+                    <img src="@/assets/set/set-img-x.png" class="home-set__product-mini h-100 mx-3 mx-md-0 my-md-6 my-lg-0 mx-lg-6">
+                    <img src="@/assets/set/set-img-logo.png" class="home-set__product h-100">
                 </div>
             </div>
             <div class="ml-md-8">
