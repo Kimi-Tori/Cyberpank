@@ -10,7 +10,7 @@ export default [
             },
             {
                 name: 'pattern',
-                path: 'pattern', // Путь относительно базового пути
+                path: '/:pathMatch(.*)*', // Путь относительно базового пути
                 component: () => import('@/views/pattern-template.vue')
             },
         ],
